@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/book_rent/static/js/main.4fb10a3c.js",
+    "main.js": "/book_rent/static/js/main.dac93f28.js",
     "index.html": "/book_rent/index.html",
-    "main.4fb10a3c.js.map": "/book_rent/static/js/main.4fb10a3c.js.map"
+    "main.dac93f28.js.map": "/book_rent/static/js/main.dac93f28.js.map"
   },
   "entrypoints": [
-    "static/js/main.4fb10a3c.js"
+    "static/js/main.dac93f28.js"
   ]
 }

@@ -70,9 +70,9 @@ const RegistrationOwner = () => {
       </div>
       <div style={styles.rightPane}>
         <h2>Book Rent</h2>
-        <h3>Signup as Owner</h3>
+        <h3>Signup</h3>
         <form style={styles.form} onSubmit={handleSubmit}>
-          <input 
+          <p>User name:</p><input 
             type="text" 
             name="username" 
             placeholder="Username" 
@@ -81,7 +81,7 @@ const RegistrationOwner = () => {
             onChange={handleChange}
             required
           />
-          <input 
+          <p>Email:</p><input 
             type="email" 
             name="email" 
             placeholder="Email address" 
@@ -90,7 +90,7 @@ const RegistrationOwner = () => {
             onChange={handleChange}
             required
           />
-          <input 
+          <p>Password: </p><input 
             type="password" 
             name="password" 
             placeholder="Password" 
@@ -99,7 +99,7 @@ const RegistrationOwner = () => {
             onChange={handleChange}
             required
           />
-          <input 
+          <p>Confirm Password:</p><input 
             type="password" 
             name="confirmPassword" 
             placeholder="Confirm Password" 
@@ -108,7 +108,7 @@ const RegistrationOwner = () => {
             onChange={handleChange}
             required
           />
-          <input 
+          <p>Full Name:</p><input 
             type="text" 
             name="fullName" 
             placeholder="Full Name" 
@@ -116,7 +116,7 @@ const RegistrationOwner = () => {
             value={formData.fullName}
             onChange={handleChange}
           />
-          <input 
+          <p>Phone Number: </p><input 
             type="text" 
             name="phoneNumber" 
             placeholder="Phone Number" 
@@ -124,7 +124,7 @@ const RegistrationOwner = () => {
             value={formData.phoneNumber}
             onChange={handleChange}
           />
-          <input 
+          <p>Address: </p><input 
             type="text" 
             name="address" 
             placeholder="Address" 
@@ -132,7 +132,7 @@ const RegistrationOwner = () => {
             value={formData.address}
             onChange={handleChange}
           />
-          <input 
+          <p>Date Of Birth:</p><input 
             type="date" 
             name="dateOfBirth" 
             placeholder="Date of Birth" 
